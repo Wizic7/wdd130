@@ -1,0 +1,32 @@
+header{
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+header h1:hover{
+    color: black;
+}
+.quote{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: pink;
+    color: black;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: .9em;
+}
+#main-quote{
+    font-size: 48px;
+}
+footer{
+    background-color: pink;
+    color: black;
+    text-align: center;
+}
+img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
