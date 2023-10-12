@@ -1,0 +1,18 @@
+img{
+    display: block;
+    width: 100%;
+}
+div{
+    background-color: #737673;
+    text-align: center;
+}
+.circle{
+    display: inline;
+    width: 20%;
+    margin: 2em 4em 2em;
+    border: 1em #3b3b41 solid;
+    border-radius: 50%;
+}
+body{
+    margin: 0;
+}

@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+.logo{
+    width: 60px;
+}
+
 nav a{
     text-align: center;
     color: #B9D6F2;
