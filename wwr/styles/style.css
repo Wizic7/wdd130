@@ -72,7 +72,7 @@ body{
 }
 
 .card-img{
-    border: 10px black solid;
+    border: 10px #B9D6F2 solid;
 }
 
 .rivers-card, .camping-card, .rapids-card{
@@ -81,7 +81,7 @@ body{
 
 #background{
     height: 725px;
-    background-color: #061A40;
+    background-color: #B9D6F2;
 }
 
 h2{
