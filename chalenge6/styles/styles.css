@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#greybox{
+    background-color: rgb(181, 181, 181);
+    width: 50vw;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+h1{
+    z-index: 1;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    align-self: center;
+    font-size: 150px;
+    letter-spacing: .3rem;
+}
+
+h2{
+    color: rgb(158, 20, 47);
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+    align-self: center;
+    font-size: 100px;
+    letter-spacing: .7rem;
+}
