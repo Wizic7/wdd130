@@ -273,7 +273,46 @@ footer p a:hover{
 
 
  /** Rates Page **/
+ .hero-text{
+    font-size: 4rem;
+    text-align: center;
+ }
  .rates-main{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #B9D6F2;
+ }
+ .rates-main .book:hover, .join:hover{
+    background-color: #B9D6F2;
+    color: #061a40e2;
+    outline: #061a40e2 2px solid;
+    font-weight: bold;
+}
+.rates-card .button-box{
+    margin-bottom: 50px;
+}
+ .rates-card{
+    width: 100%;
     max-width: 600px;
     margin: 0 auto;
  }
+ .rates-card p{
+    font-weight: bold;
+ }
+ .rates-card h2{
+    font-size: 3.5rem;
+    /* padding-top: 75px; */
+    margin-bottom: 10px;
+ }
+ .rates-card h3{
+    font-size: 3rem;    
+    margin-top: 30px;
+ }
+ .dates{
+    font-size: 1em;
+    padding-bottom: 75px;
+ }
+ .fine-print{
+    font-size: .8em;
+ }
+
