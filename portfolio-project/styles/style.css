@@ -68,7 +68,7 @@ footer{
 }
 
 .social{
-    display: flexbox;
+    display: flex;
     text-align: right;
     margin-left: auto;
     margin-right: 50px;
@@ -83,9 +83,10 @@ footer{
 
 .hero{
     display: flex;
-    width: 80%;
+    width: 50%;
     text-align: center;
     margin: 0 auto;
+    border-radius: 30%;
 }
 
 h1{
